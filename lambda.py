@@ -47,14 +47,14 @@ def executa_logica(event):
 def constroi_consistencia_sucesso(event, validar_para_atualizacao):
     consistencia = event["consistencia"]
 
-    if (consistencia.get("etapas" is None):
+    if (consistencia.get("etapas") is None):
         consistencia["etapas"] = []
-   consistencia["etapas"].append(NOME_APP)
+    consistencia["etapas"].append(NOME_APP)
 
-   consistencia["validar_para_atualizacao"] = validar_para_atualizacao
+    consistencia["validar_para_atualizacao"] = validar_para_atualizacao
 
-   consistencia["consistido"] = True
-   event["consistencia"] = consistencia
+    consistencia["consistido"] = True
+    event["consistencia"] = consistencia
    return event
 
 
