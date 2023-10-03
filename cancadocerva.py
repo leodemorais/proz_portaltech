@@ -1,4 +1,3 @@
-
 word = "garrafas"
 
 for cerva_num in range(99, 0, -1):
