@@ -11,5 +11,3 @@ print("A quantidade total de músicos na lista é de", qnt_musicos)
 print("O músico escolhido é", lista_musicos[2])
 print("O músico escolhido é", lista_musicos[9])
 print("O músico escolhido é", lista_musicos[14])
-
-

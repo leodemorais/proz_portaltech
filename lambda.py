@@ -55,8 +55,7 @@ def constroi_consistencia_sucesso(event, validar_para_atualizacao):
 
     consistencia["consistido"] = True
     event["consistencia"] = consistencia
-   return event
-
+    return event
 
 def constroi_inconsistencia(event, codigo_rejeicao, motivo_rejeicao):
    consistencia = event["consistencia"]
