@@ -11,6 +11,7 @@ def achar_elemento(elemento, array):
     else:
         print("Não encontramos o elemento", elemento)
 
+
 comida = ["pao", "arroz", "pizza", "bolo", "macarrao", "feijoada"]
 
 achar_elemento("pizza", comida)
