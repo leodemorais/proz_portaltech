@@ -13,4 +13,4 @@ def achar_elemento(elemento, array):
 
 comida = ["pao", "arroz", "pizza", "bolo", "macarrao", "feijoada"]
 
-achar_elemento("macarrao", comida)
+achar_elemento("pizza", comida)
